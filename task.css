@@ -1,0 +1,80 @@
+*{
+	font-family: sans-serif;
+}
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HBVAem8Tgj19096pj/videoblocks-blue-and-green-stars-on-dark-gradient-background_b-6yb4ppl_thumbnail-full01.png");
+	background-size:cover;
+	background-attachment: fixed;
+}
+.contents{
+	display: flex;
+	flex-flow: row wrap;
+}
+h1{
+	text-align:center;
+	text-transform:uppercase;
+	font-weight: 600;
+	margin-top: 20px;
+		color: white;
+}
+.item1{
+	flex: 1;
+	text-align: center;
+	}
+	.item2{
+		flex: 1;
+	text-align: center;
+	}
+.item1 label{
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 20px;
+	font-weight: 400;
+	color: white;
+}
+.item2 label{
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 20px;
+	font-weight: 400;
+		color: white;
+}
+.item1 input{
+	width: 50%;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
+	padding: 10px 0;
+}
+.item2 input{
+	width: 50%;
+	border:none;
+	outline: none;
+	border-radius: 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid black;
+}
+.item1 input[type=checkbox]{
+	width: 8%;
+    transform: scale(1.8);
+}
+.item1 input[type=text],.item2 input[type=text],.item1 input[type=date],.item2 input[type=date]
+{
+	padding:8px 0 8px 10px;
+	font-size: 16px;	
+}
+.assignee{
+	padding:8px 0 8px 10px;
+	font-size: 16px;
+}
+select{
+	width: 50%;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
+	padding: 10px 0;	
+	height: 40px;
+}
+

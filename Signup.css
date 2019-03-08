@@ -1,0 +1,41 @@
+
+    h1
+            {
+                text-align:center;
+            }
+             label
+            {
+                color: green;
+            }
+            #passwd
+            {
+                color: red;
+            }
+#button
+{
+    margin: 10px;
+    background-color: antiquewhite;
+    text-decoration-color: white;
+}
+body {
+     background-image: url(Signpic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+form {
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 100%;
+    width: 100%;
+    margin: 10px;
+    padding=bottom: 100px;
+    
+}
+
+       

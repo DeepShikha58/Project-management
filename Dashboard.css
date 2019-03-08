@@ -1,0 +1,92 @@
+section{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 800px;
+	background-color:  #DDDDDD;
+}
+#main-content{
+	display: flex;
+	flex-flow: row wrap;
+}
+.sidebar{
+	flex-basis: 20%;
+	background-color:#1E1E1E; 
+	height: auto;
+	
+}
+.main-body{
+	flex-basis:70%;
+}
+.spnav{
+	height: 50px;
+}
+
+.navbar-brand{
+	font-weight: 600;
+	margin-left: 10px;	
+	box-sizing: border-box;
+}
+.icon{
+	color: white;
+	padding-bottom: 10px;
+	font-size: 20px;
+	margin-right: 20px;
+}
+.sidebar button{
+	background-color: #1E1E1E;
+	color: white;
+	outline: none;
+	border:none;
+	box-sizing: border-box;
+	font-size: 20px;
+	width: 100%;
+    padding:40px;
+    cursor: pointer;
+
+}
+.sidebar button:hover{
+	background-color: white;
+	color: dodgerblue;
+}
+.main-body input{
+	margin:25px 0 0 25px;
+	width: 50%;
+	outline: none;
+	padding:5px;
+	font-size: 18px;
+}
+.main-body button{
+	background-color: dodgerblue;
+	color: white;
+	outline: none;
+	border:none;
+	box-sizing: border-box;
+	font-size: 18px;
+	width: 20%;	
+    margin:25px 0 0 15px;
+    border-radius: 10px;
+    padding:5px;
+    cursor: pointer;
+
+
+}
+.main-body button:hover{
+	background-color: white;
+	color: dodgerblue;
+	border:1px solid dodgerblue;
+}
+@media screen and (max-width: 755px){
+	.main-body input{
+		width: 100%;
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width: 500px){
+.sidebar{
+	flex-basis: 30%;
+	background-color:#1E1E1E; 
+	height: auto;
+	
+}
+}
